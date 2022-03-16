@@ -13,8 +13,6 @@
 		93D413E227E1C6EC0033A7FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93D413E027E1C6EC0033A7FA /* Main.storyboard */; };
 		93D413E427E1C6F80033A7FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93D413E327E1C6F80033A7FA /* Assets.xcassets */; };
 		93D413E727E1C6F80033A7FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93D413E527E1C6F80033A7FA /* LaunchScreen.storyboard */; };
-		93D413F227E1C6F90033A7FA /* CustomNotificationCenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D413F127E1C6F90033A7FA /* CustomNotificationCenterTests.swift */; };
-		93D413FD27E1C6F90033A7FA /* CustomNotificationCenterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D413FC27E1C6F90033A7FA /* CustomNotificationCenterUITests.swift */; };
 		93D4140F27E1CFDE0033A7FA /* CNotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D4140E27E1CFDE0033A7FA /* CNotificationCenter.swift */; };
 		93D4141827E1FD220033A7FA /* Disposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D4141727E1FD220033A7FA /* Disposable.swift */; };
 		93D4142027E1FD3C0033A7FA /* NotificationKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D4141F27E1FD3C0033A7FA /* NotificationKey.swift */; };
@@ -48,11 +46,7 @@
 		93D413E627E1C6F80033A7FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93D413E827E1C6F80033A7FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93D413ED27E1C6F90033A7FA /* CustomNotificationCenterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomNotificationCenterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		93D413F127E1C6F90033A7FA /* CustomNotificationCenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNotificationCenterTests.swift; sourceTree = "<group>"; };
-		93D413F327E1C6F90033A7FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93D413F827E1C6F90033A7FA /* CustomNotificationCenterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomNotificationCenterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		93D413FC27E1C6F90033A7FA /* CustomNotificationCenterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNotificationCenterUITests.swift; sourceTree = "<group>"; };
-		93D413FE27E1C6F90033A7FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93D4140E27E1CFDE0033A7FA /* CNotificationCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNotificationCenter.swift; sourceTree = "<group>"; };
 		93D4141727E1FD220033A7FA /* Disposable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disposable.swift; sourceTree = "<group>"; };
 		93D4141F27E1FD3C0033A7FA /* NotificationKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationKey.swift; sourceTree = "<group>"; };
@@ -88,8 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				93D413D927E1C6EC0033A7FA /* CustomNotificationCenter */,
-				93D413F027E1C6F90033A7FA /* CustomNotificationCenterTests */,
-				93D413FB27E1C6F90033A7FA /* CustomNotificationCenterUITests */,
 				93D413D827E1C6EC0033A7FA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -117,24 +109,6 @@
 				93D413E827E1C6F80033A7FA /* Info.plist */,
 			);
 			path = CustomNotificationCenter;
-			sourceTree = "<group>";
-		};
-		93D413F027E1C6F90033A7FA /* CustomNotificationCenterTests */ = {
-			isa = PBXGroup;
-			children = (
-				93D413F127E1C6F90033A7FA /* CustomNotificationCenterTests.swift */,
-				93D413F327E1C6F90033A7FA /* Info.plist */,
-			);
-			path = CustomNotificationCenterTests;
-			sourceTree = "<group>";
-		};
-		93D413FB27E1C6F90033A7FA /* CustomNotificationCenterUITests */ = {
-			isa = PBXGroup;
-			children = (
-				93D413FC27E1C6F90033A7FA /* CustomNotificationCenterUITests.swift */,
-				93D413FE27E1C6F90033A7FA /* Info.plist */,
-			);
-			path = CustomNotificationCenterUITests;
 			sourceTree = "<group>";
 		};
 		93D4141627E1FD070033A7FA /* NotificationCenter */ = {
@@ -292,7 +266,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93D413F227E1C6F90033A7FA /* CustomNotificationCenterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,7 +273,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93D413FD27E1C6F90033A7FA /* CustomNotificationCenterUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
